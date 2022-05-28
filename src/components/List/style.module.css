@@ -4,3 +4,10 @@
   gap: 32px 18px;
   padding-bottom: 40px;
 }
+
+.without {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #5b6166;
+}

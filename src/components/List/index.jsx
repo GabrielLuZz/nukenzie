@@ -22,6 +22,9 @@ const List = ({ filteredTransactions, removeFromListTransactions }) => {
         </>
       ) : (
         <>
+          <h2 className={style.without}>
+            Você ainda não possui nenhum lançamento
+          </h2>
           <img src={noCard} alt="" />
           <img src={noCard} alt="" />
           <img src={noCard} alt="" />
