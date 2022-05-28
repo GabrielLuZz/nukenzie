@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito:wght@400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  outline: 0;
+  font-family: "Nunito", sans-serif;
+  resize: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1476px) {
+  .container {
+    flex-direction: column;
+  }
+}

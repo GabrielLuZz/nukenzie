@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 40px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.menu__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.menu__list {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 560px) {
+  .menu {
+    flex-direction: column;
+  }
+}

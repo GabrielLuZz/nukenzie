@@ -1,0 +1,39 @@
+.section {
+  width: 100%;
+  height: 100px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.section__horizontal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.section__price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+}
+
+.section__example {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #5b6166;
+}

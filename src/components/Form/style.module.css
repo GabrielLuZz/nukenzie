@@ -1,0 +1,140 @@
+.form {
+  width: 100%;
+  height: 400px;
+  padding: 38px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__nameField {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.form__label > input {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+}
+
+.form__label > input::placeholder {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+}
+
+.form__exampleField {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+}
+
+.form__horizontal {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form__horizontal .form__label {
+  width: 50%;
+}
+
+.form__value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 48px;
+  width: 100%;
+  padding-right: 40px;
+}
+
+.form__value input {
+  padding-left: 16px;
+  background: #f8f9fa;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+  height: 100%;
+  width: 70%;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.form__value span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5b6166;
+  height: 100%;
+  width: 30%;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.form__label select {
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #5b6166;
+  height: 48px;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .form {
+    height: 500px;
+  }
+  .form__horizontal {
+    flex-direction: column;
+  }
+
+  .form__horizontal .form__label {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .form__value {
+    padding: 0;
+  }
+}
