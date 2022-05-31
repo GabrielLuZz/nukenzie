@@ -9,7 +9,12 @@ const Card = ({ description, type, value, removeFromListTransactions, id }) => {
 
   return (
     <li className={style.card}>
-      <div className={style.bar}></div>
+      <div
+        className={style.bar}
+        style={{
+          background: type === "entrada" ? "#03b898" : "#E9ECEF",
+        }}
+      ></div>
       <div className={style.info}>
         <div className={style.info__leftSide}>
           <h2 className={style.info__title}>{description}</h2>
